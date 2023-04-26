@@ -1,0 +1,11 @@
+Meetings:
+Join the professor meeting but the group meetings were canceled due to member's final weeks
+
+Code:
+Start working on http class
+
+Documentation:
+Working on documentation with Sean and uploading logs and branches on github
+
+Outcome:
+Documentation finished on time and prepare to compile Http requests function in http class

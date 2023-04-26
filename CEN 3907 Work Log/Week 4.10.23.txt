@@ -1,0 +1,15 @@
+Meetings:
+Joined meeting with professor and lack one of group meeting due to the class
+
+State:
+CMAKE error fixed, visual studio error fixed and start the written and testing process of storage class
+Written part of code was complete, get into the compile part
+
+Error:
+Code cannot compile with the function l_get_storage
+
+Solution Tried:
+Arrange meeting with group and figure it out how to compile at least for the code
+
+Outcome:
+Invert some part of native api code back to the original state since storage class cannot complete get rid of the lua script

@@ -1,0 +1,21 @@
+Meetings:
+Complete join the meetings with professor and groups
+
+State:
+CMake problem solved, Tried to run the game locally
+
+CMake Solution:
+New Computer with totally new environment and setup as a brand new game
+
+Error:
+Game and test can totally run in the minetest api,but not native api mode
+Game cannot be combile completely and debug through the visual studio when run the game through native api mode
+
+Error Code:
+Link 2019 for two files, l_settings and l_noise
+
+Solution tried:
+
+Used visual studio installer to repair and turn the cmake setting on in CMakeList.txt
+
+

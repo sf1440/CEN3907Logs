@@ -1,0 +1,33 @@
+Meetings:
+Joined meeting with professor and two of group meeting due to the class
+Talked and prepare more about the presentation on Thursday
+Decided to take part of http class after the presentation and documentation
+
+Code States:
+Compile the code completely and get into the test stage
+
+Project States:
+Compile mine and Sean's rollback class code to run completely into my device and prepare the presentation
+
+Error encountered for the last update:
+Invert and leave the l_get_storage_mod function with original code, change the code below for the native api file
+
+ModMetadata *store = new ModMetadata(mod_name);
+	if (IGameDef *gamedef = getGameDef(L)) {
+		store->load(gamedef->getModStoragePath());
+		gamedef->registerModStorage(store);
+	} else {
+		delete store;
+		assert(false); // this should not happen
+	}
+
+	StorageRef::create(L, store);
+	int object = lua_gettop(L);
+
+	lua_pushvalue(L, object);
+	return 1;
+
+Also, might need to turn on the settings in the CMakeLists.txt to let the test file run through the code in game
+
+Outcome:
+native api can call the lua script function but better result would just leave the function with the lua since the minetest need to pull and store the recording data in game with lua functions. C++ functions cannot completly take over the lua functions

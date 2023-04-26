@@ -1,0 +1,15 @@
+Read Through the documentation and setup Guide
+Finish Clone and Install the Minetest Locally
+System Setup for Vcpkg and Cmake
+Meeting with Blanchard and research what and why we are doing for the project
+
+Error:
+Vcpkg cannot run through the powershell
+CMake:Sound function needs to be disable and cURL libraries cannot be find
+
+Solution Tried:
+Reinstall everything from the beginning
+
+Result:
+Vcpkg install complete
+CMake error still exist

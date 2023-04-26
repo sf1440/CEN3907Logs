@@ -1,0 +1,17 @@
+Decided the meetings to meet with group: Tue 3-4pm, Thu 4-5
+First meeting with the group
+
+Deeply learned from the relationship between the lua script and c++ native api
+
+Error:CMake error still exist (Might need to arrange a meeting with professor to solve the problem)
+
+Error Code:
+CMAKELists.txt 97
+CMake waring/CMakeLists.txt 50
+
+Solution Tried:
+Went to Vobis website and tried to download everything from it manually including cURL
+
+
+New Error: 
+CMake cannot locally and manually choose the path file for the cURL
